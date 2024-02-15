@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login System</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #4CAF50, #2196F3); /* Gradient background */
+            height: 100vh; /* Full height of the viewport */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* To stack elements vertically */
+        }
+
+        .logo-container {
+            margin-bottom: 0px;
+        }
+
+        .login-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Adjust the width as needed */
+            text-align: center;
+        }
+
+        .login-container h1 {
+            margin-bottom: 20px;
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 8px;
+            text-align: left;
+font-weight: bold; /* Make labels bold */
+            color: #333; /* Set label color */
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: calc(100% - 20px); /* Adjusting width to match the container */
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .password-container {
+            position: relative;
+        }
+
+        .password-container input[type="password"] {
+        
+        }
+
+        .toggle-password {
+            position: absolute;
+            top: 30%;
+            right: 15px;
+            transform: translateY(-50%);
+            cursor: pointer;
+font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="login-container">
+    <!-- Logo -->
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo" width="200">
+    </div>
+
+    <!-- Login Form -->
+    
+        <h1>BioLock Login</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <span class="toggle-password" onclick="togglePasswordVisibility()">&#x1F441;</span>
+            </div>
+
+            <button type="button" onclick="attemptLogin()">Login</button>
+        </form>
+    </div>
+ <div id="iframeContainer" style="display: none;">
+        <iframe id="myIframe" frameborder="0"></iframe>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
