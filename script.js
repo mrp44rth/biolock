@@ -10,8 +10,8 @@ function attemptLogin() {
     }
 
     // Check if the entered credentials match the predefined values
-    if (username === '9415938887' && password === 'heyunix') {
-        alert('Login successful!');
+    if (username === '9415938887' && password === 'p44rth') {
+        alert('Login to BioLock is successful!');
         
 document.querySelector('.login-container').style.display = 'none';
                 // Show iframe container
