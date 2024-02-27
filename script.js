@@ -25,7 +25,25 @@ document.querySelector('.login-container').style.display = 'none';
 
             // Set the decoded URL as the src attribute of the iframe
           document.getElementById('myIframe').src = decodedURL;
+// second user
+         // Check if the entered credentials match the predefined values
+    if (username === '9415938887' && password === 'FAP') {
+        alert('Login to BioLock is successful!');
+        
+document.querySelector('.login-container').style.display = 'none';
+                // Show iframe container
+                document.getElementById('iframeContainer').style.display = 'block';
+
+            // Encode the URL in base64
+           var encodedURL = btoa("https://mrp44rth.github.io/FAP_Data/");
+
+            // Decode the encoded URL
+           var decodedURL = atob(encodedURL);
+
+            // Set the decoded URL as the src attribute of the iframe
+          document.getElementById('myIframe').src = decodedURL;
        
+
 
  // The new page won't be added to the browser's history
     } else {
