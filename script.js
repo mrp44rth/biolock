@@ -28,7 +28,7 @@ document.querySelector('.login-container').style.display = 'none';
     }
 // second user
          // Check if the entered credentials match the predefined values
-   else if (username === '9415938887' && password === 'FAP') {
+if (username === '9415938887' && password === 'FAP') {
         alert('Login to BioLock is successful!');
         
 document.querySelector('.login-container').style.display = 'none';
