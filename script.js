@@ -25,6 +25,7 @@ document.querySelector('.login-container').style.display = 'none';
 
             // Set the decoded URL as the src attribute of the iframe
           document.getElementById('myIframe').src = decodedURL;
+    }
 // second user
          // Check if the entered credentials match the predefined values
    else if (username === '9415938887' && password === 'FAP') {
@@ -46,10 +47,11 @@ document.querySelector('.login-container').style.display = 'none';
 
 
  // The new page won't be added to the browser's history
-    } else {
+    } 
+   else {
         alert('Incorrect username or password. Please try again.');
     }
-}
+
 
 function togglePasswordVisibility() {
     var passwordField = document.getElementById('password');
