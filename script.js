@@ -17,7 +17,7 @@ function attemptLogin() {
         document.getElementById('iframeContainer').style.display = 'block';
 
         // Encode the URL in base64
-        var encodedURL = btoa("https://mrp44rth.github.io/GITI-gauriganj-data/");
+        var encodedURL = btoa("https://mrp44rth.github.io/unixbatches/");
 
         // Decode the encoded URL
         var decodedURL = atob(encodedURL);
@@ -27,7 +27,7 @@ function attemptLogin() {
     }
     // second user
     // Check if the entered credentials match the predefined values
-    else if (username === '9415938887' && password === 'FAP') {
+    else if (username === 'p44rth' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
         document.querySelector('.login-container').style.display = 'none';
