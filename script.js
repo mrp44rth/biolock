@@ -62,3 +62,12 @@ function togglePasswordVisibility() {
         toggleIcon.innerHTML = '&#x1F441;';
     }
 } // This closes the togglePasswordVisibility function
+
+// to disable print
+window.onbeforeprint = function() {
+    document.body.innerHTML = "<h1 style='text-align: center; color: red;'>NO PRINTING allowed</h1>";
+    window.print();
+    document.location.reload();
+    return false;
+};
+
