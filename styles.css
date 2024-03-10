@@ -12,7 +12,7 @@ body {
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Center the popup */
-    background-color: #fff;
+    background-color:#6FC6FF;
     padding: 20px;
      border:2px solid black;
     border-radius: 8px;
