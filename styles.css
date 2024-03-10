@@ -24,7 +24,8 @@ body {
   }
   .popup img {
     max-width: 100px;
-    margin-bottom: 20px;
+     margin-bottom: 10px;
+drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   }
   .close {
     position: absolute;
