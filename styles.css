@@ -8,7 +8,10 @@ body {
     background-color: #f4f4f4;
 }
  .popup {
-    position: relative;
+    position: fixed; /* Change to fixed */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the popup */
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -16,6 +19,7 @@ body {
     max-width: 60%;
     text-align: center;
     display: none;
+    z-index: 9999; /* Make sure it's above other content */
   }
   .popup img {
     max-width: 100px;
