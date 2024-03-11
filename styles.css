@@ -36,6 +36,7 @@ font-size: 40px; /* Increase font size */
     padding: 5px; /* Increase padding */
   }
   .ok-button {
+width:150px;
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -43,6 +44,7 @@ font-size: 40px; /* Increase font size */
     border-radius: 7px;
     cursor: pointer;
     transition: background-color 0.5s;
+font-size: 16px; /* Increase font size */
   }
   .ok-button:hover {
     background-color: blue;
