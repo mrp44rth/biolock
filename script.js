@@ -71,6 +71,25 @@ function attemptLogin() {
         // The new page won't be added to the browser's history
     }
         // 4th user
+        else if (username === 'unixinstitute' && password === 'p44rth') {
+        alert('Login to BioLock is successful!');
+
+        document.querySelector('.login-container').style.display = 'none';
+        // Show iframe container
+        document.getElementById('iframeContainer').style.display = 'block';
+
+        // Encode the URL in base64
+        var encodedURL = btoa("https://mrp44rth.github.io/UNIXPMKVY2024/");
+
+        // Decode the encoded URL
+        var decodedURL = atob(encodedURL);
+
+        // Set the decoded URL as the src attribute of the iframe
+        document.getElementById('myIframe').src = decodedURL;
+
+        // The new page won't be added to the browser's history
+    }
+          // 5th user
         else if (username === 'p44rth' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
