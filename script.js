@@ -128,7 +128,44 @@ function attemptLogin() {
         // The new page won't be added to the browser's history
     }
          
-         
+     // 5th user
+        else if (username === '9415938887' && password === 'gitiamethi') {
+        alert('Login to BioLock is successful!');
+
+        document.querySelector('.login-container').style.display = 'none';
+        // Show iframe container
+        document.getElementById('iframeContainer').style.display = 'block';
+
+        // Encode the URL in base64
+        var encodedURL = btoa("https://mrp44rth.github.io/404/");
+
+        // Decode the encoded URL
+        var decodedURL = atob(encodedURL);
+
+        // Set the decoded URL as the src attribute of the iframe
+        document.getElementById('myIframe').src = decodedURL;
+
+        // The new page won't be added to the browser's history
+    }
+ // 7th user
+        else if (username === 'pmkvytiyari' && password === 'adarsh') {
+        alert('Login to BioLock is successful!');
+
+        document.querySelector('.login-container').style.display = 'none';
+        // Show iframe container
+        document.getElementById('iframeContainer').style.display = 'block';
+
+        // Encode the URL in base64
+        var encodedURL = btoa("https://mrp44rth.github.io/MAYAKANTPMKVY2024/");
+
+        // Decode the encoded URL
+        var decodedURL = atob(encodedURL);
+
+        // Set the decoded URL as the src attribute of the iframe
+        document.getElementById('myIframe').src = decodedURL;
+
+        // The new page won't be added to the browser's history
+}    
     else {
         alert('Incorrect username or password. Please try again.');
     }
