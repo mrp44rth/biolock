@@ -12,7 +12,7 @@ function attemptLogin() {
         alert('Please enter both username and password');
         return;
     }
-
+     // GITIguriganj
     // Check if the entered credentials match the predefined values
     if (username === '9415938887' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
@@ -30,7 +30,7 @@ function attemptLogin() {
         // Set the decoded URL as the src attribute of the iframe
         document.getElementById('myIframe').src = decodedURL;
     }
-    // second user
+    // GITIamethi
     // Check if the entered credentials match the predefined values
     else if (username === '9415938887' && password === 'Atulboss') {
         alert('Login to BioLock is successful!');
@@ -50,7 +50,7 @@ function attemptLogin() {
 
         // The new page won't be added to the browser's history
     }
-      // third user
+      // GGICgauriganj
     // Check if the entered credentials match the predefined values
     else if (username === '9015177086' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
@@ -70,7 +70,7 @@ function attemptLogin() {
 
         // The new page won't be added to the browser's history
     }
-        // 4th user
+        // UNIXpmkvy
         else if (username === 'unixinstitute' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
@@ -89,7 +89,7 @@ function attemptLogin() {
 
         // The new page won't be added to the browser's history
     }
-          // 5th user
+          // GITImusafirkhana
         else if (username === 'gitimusafirkhana' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
@@ -108,7 +108,7 @@ function attemptLogin() {
 
         // The new page won't be added to the browser's history
     }
- // 6th user
+ // test
         else if (username === 'p44rth' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
@@ -128,7 +128,7 @@ function attemptLogin() {
         // The new page won't be added to the browser's history
     }
          
-     // 5th user
+     // GITIamethi
         else if (username === '9415938887' && password === 'gitiamethi') {
         alert('Login to BioLock is successful!');
 
@@ -147,7 +147,7 @@ function attemptLogin() {
 
         // The new page won't be added to the browser's history
     }
- // 7th user
+ // mayakantsir
         else if (username === 'pmkvytiyari' && password === 'adarsh') {
         alert('Login to BioLock is successful!');
 
@@ -169,7 +169,27 @@ function attemptLogin() {
     else {
         alert('Incorrect username or password. Please try again.');
     }
-} // This closes the attemptLogin function
+} 
+ // newuser
+        else if (username === 'newuser' && password === 'newuser') {
+        alert('Login to BioLock is successful!');
+
+        document.querySelector('.login-container').style.display = 'none';
+        // Show iframe container
+        document.getElementById('iframeContainer').style.display = 'block';
+
+        // Encode the URL in base64
+        var encodedURL = btoa("https://mrp44rth.github.io/404/");
+
+        // Decode the encoded URL
+        var decodedURL = atob(encodedURL);
+
+        // Set the decoded URL as the src attribute of the iframe
+        document.getElementById('myIframe').src = decodedURL;
+
+        // The new page won't be added to the browser's history
+    }
+// This closes the attemptLogin function
 
 function togglePasswordVisibility() {
     var passwordField = document.getElementById('password');
@@ -186,7 +206,7 @@ function togglePasswordVisibility() {
 
 // to disable print
 window.onbeforeprint = function() {
-    document.body.innerHTML = "<h1 style='text-align: center; color: red;'>NO PRINTING allowed</h1>";
+    document.body.innerHTML = "<h1 style='text-align: center; color: red;'>BIOLOCK <br><br> says <br><br> NO PRINTING allowed</h1>";
     window.print();
     document.location.reload();
     return false;
