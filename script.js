@@ -14,7 +14,7 @@ function attemptLogin() {
     }
      // GITIguriganj
     // Check if the entered credentials match the predefined values
-    if (username === '9415938887' && password === 'p44rth') {
+    if (username === 'gitigauriganj' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
         document.querySelector('.login-container').style.display = 'none';
@@ -32,7 +32,7 @@ function attemptLogin() {
     }
     // GITIamethi
     // Check if the entered credentials match the predefined values
-    else if (username === '9415938887' && password === 'Atulboss') {
+    else if (username === 'gitiamethi' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
         document.querySelector('.login-container').style.display = 'none';
