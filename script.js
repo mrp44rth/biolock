@@ -50,9 +50,9 @@ function attemptLogin() {
 
         // The new page won't be added to the browser's history
     }
-      // GGICGauriganj
+      // GITIJAIS
     // Check if the entered credentials match the predefined values
-    else if (username === '9015177086' && password === 'p44rth') {
+    else if (username === 'gitijais' && password === 'p44rth') {
         alert('Login to BioLock is successful!');
 
         document.querySelector('.login-container').style.display = 'none';
@@ -60,7 +60,27 @@ function attemptLogin() {
         document.getElementById('iframeContainer').style.display = 'block';
 
         // Encode the URL in base64
-        var encodedURL = btoa("https://mrp44rth.github.io/404/");
+        var encodedURL = btoa("https://mrp44rth.github.io/GITIJAIS/");
+
+        // Decode the encoded URL
+        var decodedURL = atob(encodedURL);
+
+        // Set the decoded URL as the src attribute of the iframe
+        document.getElementById('myIframe').src = decodedURL;
+
+        // The new page won't be added to the browser's history
+    }
+      // GITIJAIS
+    // Check if the entered credentials match the predefined values
+    else if (username === 'gititiloi' && password === 'p44rth') {
+        alert('Login to BioLock is successful!');
+
+        document.querySelector('.login-container').style.display = 'none';
+        // Show iframe container
+        document.getElementById('iframeContainer').style.display = 'block';
+
+        // Encode the URL in base64
+        var encodedURL = btoa("https://mrp44rth.github.io/GITITILOI/");
 
         // Decode the encoded URL
         var decodedURL = atob(encodedURL);
