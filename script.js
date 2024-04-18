@@ -205,6 +205,24 @@ function attemptLogin() {
 
         // The new page won't be added to the browser's history
     }
+      else if (username === 'test' && password === 'test') {
+        alert('Login to BioLock is successful!');
+
+        document.querySelector('.login-container').style.display = 'none';
+        // Show iframe container
+        document.getElementById('iframeContainer').style.display = 'block';
+
+        // Encode the URL in base64
+        var encodedURL = btoa("https://mrp44rth.github.io/test/test/");
+
+        // Decode the encoded URL
+        var decodedURL = atob(encodedURL);
+
+        // Set the decoded URL as the src attribute of the iframe
+        document.getElementById('myIframe').src = decodedURL;
+
+        // The new page won't be added to the browser's history
+    }
     else {
         alert('Incorrect username or password. Please try again.');
     }
