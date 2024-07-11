@@ -243,10 +243,10 @@ function togglePasswordVisibility() {
 } // This closes the togglePasswordVisibility function
 
 // to disable print
-window.onbeforeprint = function() {
-    document.body.innerHTML = "<h1 style='text-align: center; color: red;'>BIOLOCK <br><br> says <br><br> NO PRINTING allowed</h1>";
-    window.print();
-    document.location.reload();
-    return false;
-};
+//window.onbeforeprint = function() {
+//    document.body.innerHTML = "<h1 style='text-align: center; color: red;'>BIOLOCK <br><br> says <br><br> NO PRINTING allowed</h1>";
+//    window.print();
+ //   document.location.reload();
+//    return false;
+//};
 
